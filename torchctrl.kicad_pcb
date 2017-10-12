@@ -14,8 +14,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -1172,7 +1172,7 @@
     (model arduino_nano.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 90))
     )
     (model ${KIPRJMOD}/library/smisioto/walter/conn_misc/arduino_nano_header.wrl
       (at (xyz 0 0 0))
@@ -1862,7 +1862,7 @@
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (dimension 95 (width 0.3) (layer Dwgs.User)
-    (gr_text "95,000 mm" (at 132.5 38.65) (layer Dwgs.User) (tstamp 59DF7E3D)
+    (gr_text "95,000 mm" (at 132.5 38.65) (layer Dwgs.User) (tstamp 59DF8D30)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 180 50) (xy 180 37.3)))
@@ -1874,7 +1874,7 @@
     (arrow2b (pts (xy 85 40) (xy 86.126504 39.413579)))
   )
   (dimension 60 (width 0.3) (layer Dwgs.User)
-    (gr_text "60,000 mm" (at 196.35 85 270) (layer Dwgs.User) (tstamp 59DF7E3E)
+    (gr_text "60,000 mm" (at 196.35 85 270) (layer Dwgs.User) (tstamp 59DF8D31)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 185 115) (xy 197.7 115)))
