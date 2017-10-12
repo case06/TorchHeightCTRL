@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6)
+(kicad_pcb (version 20170123) (host pcbnew "(2017-06-02 revision ac9a64a)-master")
 
   (general
     (links 79)
     (no_connects 1)
-    (area 84.949999 54.949999 180.050001 115.050001)
+    (area 84.149999 37.3 203.000001 117.1682)
     (thickness 1.6)
     (drawings 21)
     (tracks 366)
@@ -14,8 +14,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -75,7 +75,6 @@
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15)
-      (hpglpenoverlay 2)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -285,7 +284,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/conn_mpt/mpt_0,5-2-2,54.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/conn_mpt/mpt_0,5-2-2,54.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -317,7 +316,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_cap/c_0603.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_cap/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -349,7 +348,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_cap/c_0603.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_cap/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -381,7 +380,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_cap/c_0603.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_cap/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -413,7 +412,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_cap/c_0603.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_cap/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -445,7 +444,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_cap/c_0603.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_cap/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -477,7 +476,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_cap/c_0603.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_cap/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -509,7 +508,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_cap/c_0603.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_cap/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -541,7 +540,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_cap/c_0603.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_cap/c_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -573,7 +572,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_diode/sod123.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_diode/sod123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -605,7 +604,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_diode/sod123.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_diode/sod123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -637,7 +636,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_diode/sod123.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_diode/sod123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -669,7 +668,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_diode/sod123.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_diode/sod123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -701,7 +700,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_diode/sod123.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_diode/sod123.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -770,7 +769,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_inductors/inductor_smd_0603.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_inductors/inductor_smd_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -802,7 +801,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_inductors/inductor_smd_0603.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_inductors/inductor_smd_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -834,7 +833,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_inductors/inductor_smd_0603.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_inductors/inductor_smd_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -866,7 +865,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_inductors/inductor_smd_0603.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_inductors/inductor_smd_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -898,7 +897,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_inductors/inductor_smd_0603.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_inductors/inductor_smd_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -930,7 +929,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_inductors/inductor_smd_0603.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_inductors/inductor_smd_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -962,7 +961,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_inductors/inductor_smd_0603.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_inductors/inductor_smd_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -994,7 +993,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_resistors/r_0603.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_resistors/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1026,7 +1025,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_resistors/r_0603.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_resistors/r_0603.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1085,7 +1084,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/smd_dil/tssop-16.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/smd_dil/tssop-16.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1171,19 +1170,19 @@
     (pad 30 thru_hole oval (at -19.05 -7.62 270) (size 1.5748 2.286) (drill 0.8128) (layers *.Cu *.Mask F.SilkS)
       (net 42 "Net-(J6-Pad30)"))
     (model arduino_nano.wrl
-      (at (xyz -0.978 -0.385 0))
+      (at (xyz 0 0 0))
       (scale (xyz 0.3937 0.3937 0.3937))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/conn_misc/arduino_nano_header.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/conn_misc/arduino_nano_header.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/nano3d/arduino_nano.wrl
-      (at (xyz -0.946 -0.383 0))
+    (model ${KIPRJMOD}/library/nano3d/arduino_nano.wrl
+      (at (xyz 0.9448818897637796 0.3847165354330709 0.05905511811023623))
       (scale (xyz 0.3937 0.3937 0.3937))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1230,7 +1229,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/conn_strip/vasch_strip_5x2_90.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/conn_strip/vasch_strip_5x2_90.wrl
       (at (xyz 0 0.2 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1277,7 +1276,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/conn_rf/bnc_90_1-1337543-0.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/conn_rf/bnc_90_1-1337543-0.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1324,7 +1323,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/conn_mpt/mpt_0,5-6-2,54.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/conn_mpt/mpt_0,5-6-2,54.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1365,7 +1364,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/conn_mpt/mpt_0,5-4-2,54.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/conn_mpt/mpt_0,5-4-2,54.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1407,7 +1406,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/os/kicad/libraries/smisioto/walter/conn_pc/hdd_power_15-24-4441.wrl
+    (model ${KIPRJMOD}/library/smisioto/walter/conn_pc/hdd_power_15-24-4441.wrl
       (at (xyz 0 -0.24 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1419,7 +1418,7 @@
     (descr "Through hole pin header")
     (tags "pin header")
     (path /593241DA)
-    (fp_text reference J5 (at 0.2454 8.5133 360) (layer F.SilkS)
+    (fp_text reference J5 (at 0.2454 8.5133) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value HEADER_3 (at 0 -3.1 270) (layer F.Fab) hide
@@ -1863,7 +1862,7 @@
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (dimension 95 (width 0.3) (layer Dwgs.User)
-    (gr_text "95,000 mm" (at 132.5 38.65) (layer Dwgs.User)
+    (gr_text "95,000 mm" (at 132.5 38.65) (layer Dwgs.User) (tstamp 59DF7E3D)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 180 50) (xy 180 37.3)))
@@ -1875,7 +1874,7 @@
     (arrow2b (pts (xy 85 40) (xy 86.126504 39.413579)))
   )
   (dimension 60 (width 0.3) (layer Dwgs.User)
-    (gr_text "60,000 mm" (at 196.35 85 270) (layer Dwgs.User) (tstamp 5932623D)
+    (gr_text "60,000 mm" (at 196.35 85 270) (layer Dwgs.User) (tstamp 59DF7E3E)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 185 115) (xy 197.7 115)))
